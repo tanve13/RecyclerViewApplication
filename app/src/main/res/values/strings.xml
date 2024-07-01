@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Recycler View Application</string>
+    <string name="recycler_activity">Recycler Activity</string>
+    <string name="name">Name</string>
+    <string name="roll_no">Roll NO</string>
+    <string name="course">Course</string>
+</resources>
