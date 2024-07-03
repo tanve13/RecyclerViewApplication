@@ -9,7 +9,7 @@ class
 RecyclerActivity : AppCompatActivity() {
     var binding: ActivityMainBinding? = null
    var DetailArray = arrayListOf<DetailDataClass>(DetailDataClass("Ram",1,"Computer Science"))
-    var DetailClass = DetailClass(DetailArray)
+   private var detailClass = DetailClass(DetailArray)
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
